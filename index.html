@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BookMark</title>
+</head>
+<body>
+         <header class="d-flex justify-content-center align-items-center ">
+            
+            <div class=" caontent w-50 mx-auto text-white   ">
+                <h1 class=" text-center">BookMark</h1>
+            <p  class=" text-center">Lorem ipsum dolor sit amet consectetur.</p>
+            
+            <div class="form-group my-3">
+                <label class="fs-3" for="bookMarkName"> SiteName:</label>
+                <input  type="text" class="form-control py-2" id="bookMarkName" placeholder="BookMarkName">
+                <div id="alertName" class=" alert alert-danger d-none">
+                    <p>BookName must start with captial character from A-Z</p>
+
+                </div>
+                
+            </div>
+            <div class="form-group my-3">
+                <label class="fs-3" for="bookMarkUrl"> SiteUrl:</label>
+                <input type="url" class="form-control py-2" id="bookMarkUrl" placeholder="BookMarkURL">
+                <div id="alertUrl" class=" alert alert-danger d-none">
+                    <p>BookMark url must start with https://www. and end with .com or .net or .org</p>
+
+                </div>
+                
+            </div>
+             <div class=" my-5">
+                <button class="btn  rounded-pill py-2" id="addBtn">add BookMark</button>
+                <button class="btn  rounded-pill py-2  " id="updateBtn">update</button>
+
+
+             </div>
+            </div>
+                       
+        </header>
+        <div class="icon">
+            <i class="fa-solid fa-chevron-down rounded-circle py-2 text-white fs-5 "></i>
+        </div>
+         <div class="brdr w-1oo  "> </div>
+        
+    
+         <div  class="mt-5 "  id=" displaySite">
+      
+        </div>
+
+          
+
+
+
+
+        <div class="brdr w-75 mx-auto  "> </div>
+     <footer>
+        <p class="text-center py-3">CopyRight <span>© 2019 </span>Bookmarker</p>
+     </footer>
+        <script src="js/main.js"></script>
+</body>
+</html>

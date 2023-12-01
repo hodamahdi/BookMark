@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+header
+{
+    height:100vh;
+    
+    background-image: url(../imges/pexels-photo-1111318.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.icon
+{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: #e83e8c;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: -18px;
+    cursor: pointer;
+}
+
+.brdr
+{ 
+    
+    height: 1px;
+    background-color:#e2e7eb;
+} 
+#addBtn , #updateBtn
+{
+    background-color: #e83e8c ;
+    transition: 1s;
+}
+#addBtn:hover ,#updateBtn:hover
+{
+    background-color: #aaa ;
+    color: black ;
+}
+
+span
+{
+    color: #e83e8c;
+}
